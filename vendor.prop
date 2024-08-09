@@ -118,6 +118,8 @@ debug.hwui.renderer=skiagl
 debug.hwui.skia_atrace_enabled=false
 renderthread.skia.reduceopstasksplitting=true
 debug.renderengine.backend=skiaglthreaded
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 ro.config.avoid_gfx_accel=true
 
 # DRM
