@@ -20,9 +20,6 @@ on early-init
     write /proc/sys/kernel/sched_boost 1
     
 on init
-    # Set teo as cpu idle governor
-    write /sys/devices/system/cpu/cpuidle/current_governor teo
-
     write /proc/bootprof "INIT:init"
     
     # if primary storage is physical, set ro.vold.primary_physical to 1
