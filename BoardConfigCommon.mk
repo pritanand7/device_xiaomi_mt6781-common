@@ -60,14 +60,12 @@ TARGET_KERNEL_CLANG_VERSION := r450784e
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-BOARD_INCLUDE_RECOVERY_DTBO := true
 
 BOARD_KERNEL_CMDLINE := \
     bootopt=64S3,32N2,64N2 \
     androidboot.selinux=permissive
 
 # Kernel (Prebuilt)
-BOARD_PREBUILT_DTBOIMAGE := $(COMMON_PATH)/prebuilt/dtbo.img
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard device/xiaomi/mt6781-modules/*.ko)
 
 # Partitions
