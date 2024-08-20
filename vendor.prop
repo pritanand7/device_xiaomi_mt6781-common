@@ -120,6 +120,12 @@ ro.vendor.mtk_agps_app=1
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.hardware.kmsetkey=beanpod
 
+# LMK
+ro.lmk.kill_timeout_ms=100
+ro.lmk.psi_complete_stall_ms=700
+ro.lmk.swap_free_low_percentage=20
+persist.sys.lmk.camera_minfree_6g_levels=18432:0,23040:100,27648:200,85000:250,127500:800,161280:950
+
 # Neural Networks
 ro.vendor.mtk_nn_support=1
 ro.vendor.mtk_nn_baseline_support=1
