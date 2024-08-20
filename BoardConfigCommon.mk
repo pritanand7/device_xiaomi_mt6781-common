@@ -59,8 +59,6 @@ TARGET_KERNEL_CONFIG := mt6781_defconfig
 TARGET_KERNEL_CLANG_VERSION := r416183b1
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-
 BOARD_KERNEL_CMDLINE := \
     bootopt=64S3,32N2,64N2 \
     androidboot.selinux=permissive
