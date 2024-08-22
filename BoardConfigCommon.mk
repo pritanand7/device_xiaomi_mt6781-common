@@ -60,8 +60,7 @@ TARGET_KERNEL_CLANG_VERSION := r416183b1
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
 BOARD_KERNEL_CMDLINE := \
-    bootopt=64S3,32N2,64N2 \
-    androidboot.selinux=permissive
+    bootopt=64S3,32N2,64N2
 
 # Kernel (Prebuilt)
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard device/xiaomi/mt6781-modules/*.ko)
