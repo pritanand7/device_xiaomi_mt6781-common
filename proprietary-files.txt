@@ -35,6 +35,10 @@ vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
+# Camera
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
+
 # ConsumerIR
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.mt6781.so
 
@@ -431,20 +435,6 @@ vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
-
-# Perf
--vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service;NODEPS
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
-vendor/lib/libmtkperf_client_vendor.so;NOSYMBOLS
-vendor/lib64/libmtkperf_client_vendor.so
-vendor/lib64/libperfctl_vendor.so
-vendor/lib64/libpowerhal.so
-vendor/lib64/libpower_timer.so
-vendor/lib64/libpowerhalwrap_vendor.so
-vendor/lib64/vendor.mediatek.hardware.power@1.1.so
-vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Radio
 vendor/bin/ccci_rpcd
